@@ -14,6 +14,8 @@
   "author": "rumeysa gokce",
   "license": "ISC",
   "dependencies": {
+    "bcrpyt": "^2.0.0",
+    "bcrypt": "^5.1.1",
     "ejs": "^3.1.9",
     "express": "^4.19.2",
     "mongoose": "^8.3.0",
