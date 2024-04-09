@@ -17,6 +17,11 @@ const UserSchema=new Schema({
         type:String,
         required:true
     },
+    role:{
+        tyoe:String,
+        enum:["student","teacher","admin"],
+        default:"student"
+    },
 });
 
 //şifreleme için middleware

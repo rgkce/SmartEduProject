@@ -4,6 +4,7 @@ const bcrypt = require('bcrypt');
 exports.createUser=async (req,res)=>{
     try{
     const user=await User.create(req.body);
+    res.status(201).redirect('/login');
     
         res.status(201).json({
             status:'succes',
